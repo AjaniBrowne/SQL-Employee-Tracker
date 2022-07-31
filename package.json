@@ -1,6 +1,28 @@
 {
   "dependencies": {
+    "console.table": "^0.10.0",
     "inquirer": "^8.2.4",
-    "mysql": "^2.18.1"
-  }
+    "mysql2": "^2.3.3"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "sql-employee-tracker",
+  "description": "In this assignment this module is to build a command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL.",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AjaniBrowne/SQL-Employee-Tracker.git"
+  },
+  "keywords": [
+    "employee",
+    "tracker"
+  ],
+  "author": "Ajani Browne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AjaniBrowne/SQL-Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/AjaniBrowne/SQL-Employee-Tracker#readme"
 }
